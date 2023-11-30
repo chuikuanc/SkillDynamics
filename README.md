@@ -24,6 +24,10 @@ npm install --save-dev @cypress/webpack-preprocessor
 (f) change the cypress.config.js
 => copy it from https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/examples/webpack-cjs/cypress.config.js
 
+(g) Others 
+i. iframe installation
+npm install -D cypress-iframe
+
 1. Feature file is under e2e
 2a. support/step_definitions
 2b. support/page_objects
