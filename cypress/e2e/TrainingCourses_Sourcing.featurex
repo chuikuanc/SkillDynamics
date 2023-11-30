@@ -1,0 +1,18 @@
+Feature: Training Course procurement page
+
+    Feature Description
+    Background: PreCondition
+       
+
+    Scenario: Arrange a demo from procurement training -Sourcing
+        Given I navigate to the Skill Dynamics homepage
+        When I click on the Training courses link
+        And I click on the Sourcing link
+        And I click on Arrange a Demo button
+        Then I verify if I am in the Procument traning page 
+
+     @smoke
+     Scenario: Navigate from the direct link procurement traning - Sourcing
+        Given I navigate to the Training Course_Procurement_Sourcing page
+        And I click on YouTube play button
+        Then I verify if I am in the Procument traning page 
