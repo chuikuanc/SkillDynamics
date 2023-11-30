@@ -1,0 +1,33 @@
+{
+  "dependencies":  {}
+    "init": "^0.1.2"
+  },
+  "name": "cypressskilldynamics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@cypress/webpack-preprocessor": "^6.0.0",
+    "babel-loader": "^9.1.3",
+    "cypress": "^13.6.0",
+    "webpack": "^5.89.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smoke-pack-headed": "cypress run -e TAGS=\"@smoke\" --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuikuanc/SkillDynamics.git"
+  },
+  "author": "KarenCK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuikuanc/SkillDynamics/issues"
+  },
+  "homepage": "https://github.com/chuikuanc/SkillDynamics#readme",
+  "description": ""
+}
